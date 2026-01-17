@@ -98,46 +98,47 @@ and requested a digital brochure and follow-up visit next month.
 
 
 🛠️ Tech Stack
-Frontend
+**Frontend**
 
-React
+  - React
+  - Axios
+  - CSS (index.css, App.css)
 
-Axios
+**Backend**
 
-CSS (index.css, App.css)
-
-Backend
-
-FastAPI
-
-LangGraph
-
-Groq LLM
-
-SQLAlchemy
-
-Database
-
-SQLite
+  - FastAPI
+  - LangGraph
+  - Groq LLM
+  - SQLAlchemy
+  - Database
+  - SQLite
 
 
 
 ## Running the Project Locally :-
 
-Backend Setup
+**Backend Setup**
+
   cd backend
+  
   python -m venv venv
+  
   venv\Scripts\activate   # Windows
+  
   pip install -r requirements.txt
+  
   uvicorn app.main:app --reload
 
-Frontend Setup
+**Frontend Setup**
+
   cd frontend
+  
   npm install
+  
   npm start
 
 
-## Environment Variables
+## **Environment Variables**
 
   - Secrets are managed using environment variables.
 
@@ -150,10 +151,10 @@ Frontend Setup
 
      backend/.env.example
 
-  - Note: .env files are excluded from version control for security.
+  - **Note**: .env files are excluded from version control for security.
 
 
-## Design Decisions
+## **Design Decisions**
 
 Chat-based UI chosen to emphasize AI-first CRM experience
 
@@ -166,5 +167,5 @@ UI kept minimal to focus on AI logic and architecture
 
 ## Author
 
-Harsh Kaushik
+**Harsh Kaushik**
 B.Tech Computer Science (AI & ML)
